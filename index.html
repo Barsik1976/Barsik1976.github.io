@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <title>TDI</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicon/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page-body">
+  <header class="page-header">
+    <div class="page-header__nav-out navigation-out">
+      <div class="navigation-out__wrap container">
+        <div class="navigation-out__toggle" onclick="myFunction(this)">
+          <div class="navigation-out__toggle-inner navigation-out__toggle-inner--1"></div>
+          <div class="navigation-out__toggle-inner navigation-out__toggle-inner--2"></div>
+          <div class="navigation-out__toggle-inner navigation-out__toggle-inner--3"></div>
+        </div>
+        <a class="navigation-out__tel" href="tel:+78004501122">8 (800) 450-11-22</a>
+        <a class="navigation-out__call site-link" href="#call-form">Обратный звонок</a>
+        <ul class="navigation-out__main-nav main-nav menu-text">
+          <li>
+            <a href="#">О проекте</a>
+          </li>
+          <li>
+            <a href="#">Каталог</a>
+          </li>
+          <li>
+            <a href="#">Оплата и доставка</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="page-header__nav-inner nav-inner">
+      <nav class="nav-inner__wrap container">
+        <a class="nav-inner__logo logo-tdi" href="index.html" title="Логотип TDI">
+          <img src="img/logo_tdi.png" alt="Логотип TDI">
+        </a>
+        <ul class="nav-inner__list site-list menu-text">
+          <li>
+            <a href="#">Инновационные решения</a>
+          </li>
+          <li>
+            <a href="wardrobes.html">Телекоммуникационное оборудование</a>
+          </li>
+          <li class="site-list__more">
+            <a href="#">Кабины ПВГ</a>
+            <ul class="site-list-inner">
+              <li>
+                <a href="#">Щиты электрические</a>
+              </li>
+              <li>
+                <a href="#">Объекты инфраструктуры</a>
+              </li>
+              <li>
+                <a href="#">«Чистые» помещения</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <form class="main-nav__form form-search" action="" method="get">
+          <label class="visually-hidden" for="search-form-input">Поле поиска</label>
+          <input type="search" placeholder="Поиск по сайту" id="search-form-input" required>
+          <button type="submit" class="button search-button" arial-label="Найти"></button>
+        </form>
+      </nav>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="slider-main">
+      <h1 class="visually-hidden">Слайдер продукции предприятия</h1>
+      <div class="slider-main__list">
+        <article class="slider-main__item slider-main__item--1">
+          <a class="slider-main__link" href="#">
+            <div class="slider-main__desc container">
+              <h2 class="headline">Электронное<br> оборудование</h2>
+              <p>Для телекоммуникаций</p>
+            </div>
+          </a>
+        </article>
+        <div class="slider-main__item slider-main__item--2">
+          <a class="slider-main__link" href="#">
+          </a>
+          <div class="slider-main__desc text-slider">
+            <h2 class="headline">Электронное<br> оборудование</h2>
+            <p>Для телекоммуникаций</p>
+          </div>
+        </div>
+        <div class="slider-main__item slider-main__item--3">
+          <a class="slider-main__link" href="#">
+          </a>
+          <div class="slider-main__desc">
+            <h2 class="headline">Электронное<br> оборудование</h2>
+            <p>Для телекоммуникаций</p>
+          </div>
+        </div>
+      </div>
+      <a class="slider-main__toggle slider-main__toggle--prev" onclick="minusSlide()"></a>
+      <a class="slider-main__toggle slider-main__toggle--next" onclick="plusSlide()"></a>
+    </section>
+    <section class="innovation container">
+      <h2 class="headline">Инновации «под ключ»</h2>
+      <ul class="innovation__list">
+        <li>
+          <img src="img/shopping-pavilion-2.png" alt="торговый павильон">
+          <div class="innovation__desc">
+            <h3 class="headline">Торговый павильон</h3>
+            <p class="text-site">точка розничной торговли в местах остановок общественного транспорта</p>
+          </div>
+        </li>
+        <li class="innovation__item-current">
+          <img src="img/stop-2.png" alt="умная остановка">
+          <div class="innovation__desc">
+            <h3 class="headline">«Умная» остановка</h3>
+            <p class="text-site">информационно-коммуникационная конструкция</p>
+            <a class="innovation__btn btn" href="#">Оставить заявку</a>
+          </div>
+        </li>
+        <li>
+          <img src="img/stella-2.png" alt="информационная стелла">
+          <div class="innovation__desc">
+            <h3 class="headline">Информационная стелла</h3>
+            <p class="text-site">для воспроизведения видеоконтента и другой визуальной информации</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="clean-rooms container">
+      <h2 class="headline">Для «чистых» помещений</h2>
+      <div class="clean-rooms__slider">
+        <article>
+          <img src="img/slide_1.jpg" alt="мойка хирургическая">
+          <h4 class="headline">Мойки хирургические</h4>
+          <p class="text-site">для сохранения высоких стандартов гигиены в операционных блоках</p>
+        </article>
+        <article>
+          <img src="img/slide_2.jpg" alt="двери">
+          <h4 class="headline">Двери раздвижные</h4>
+          <p class="text-site">водонепроницаемые, недеформируемые и ударопрочные</p>
+        </article>
+        <article>
+          <img src="img/slide_3.jpg" alt="шлюзы">
+          <h4 class="headline">Шлюзы передаточные</h4>
+          <p class="text-site">для перемещения материалов между помещениями разных классов чистоты</p>
+        </article>
+        <article>
+          <img src="img/slide_4.jpg" alt="стеновые конструкции">
+          <h4 class="headline">Стеновые ограждающие конструкции</h4>
+          <p class="text-site">для операционных, дородовых, лабораторных, реанимацонных блоков</p>
+        </article>
+        <article>
+          <img src="img/slide_1.jpg" alt="мойка хирургическая">
+          <h4 class="headline">Мойки хирургические</h4>
+          <p class="text-site">для сохранения высоких стандартов гигиены в операционных блоках</p>
+        </article>
+        <article>
+          <img src="img/slide_2.jpg" alt="двери">
+          <h4 class="headline">Двери раздвижные</h4>
+          <p class="text-site">водонепроницаемые, недеформируемые и ударопрочные</p>
+        </article>
+      </div>
+      <a class="clean-rooms__toggle clean-rooms__toggle--prev" onclick="minusSlide()"></a>
+      <a class="clean-rooms__toggle clean-rooms__toggle--next" onclick="plusSlide()"></a>
+    </section>
+    <section class="advantages">
+      <div class="advantages__wrap container">
+        <h2 class="headline">Почему нам доверяют</h2>
+        <ul class="advantages__list">
+          <li>
+            <img src="img/advantages_1.png" alt="иконка шестеренки">
+            <p>Гарантия<br> качества</p>
+          </li>
+          <li>
+            <img src="img/advantages_2.png" alt="шестеренка">
+            <p>Индивидуальный<br> подход</p>
+          </li>
+          <li>
+            <img src="img/advantages_3.png" alt="шестеренка">
+            <p>Инновационные<br> технологии</p>
+          </li>
+          <li>
+            <img src="img/advantages_4.png" alt="шестеренка">
+            <p>Комплексные<br> решения</p>
+          </li>
+          <li>
+            <img src="img/advantages_5.png" alt="шестеренка">
+            <p>Превосходный сервис</p>
+          </li>
+          <li>
+            <img src="img/advantages_6.png" alt="шестеренка">
+            <p>Широкая<br> биография</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="application-form container">
+      <h2 class="headline">Мы перезвоним</h2>
+      <p class="text-site">Менеджер проекта свяжется с вами и уточнит все пожелания к заказу. Если вы не нашли необходимую продукцию на нашем сайте — оставьте заявку. Мы изготовим изделия по вашим параметрам, размерам и цвету.</p>
+      <div class="application-form__user">
+        <p class="application-form__item">
+          <label for="name-form">Ваше имя:</label>
+          <input type="text" value="Например, Илон Маск" id="name-form">
+        </p>
+        <p class="application-form__item">
+          <label for="tel-form">Телефон:</label>
+          <input type="tel" value="+7" id="tel-form">
+        </p>
+      </div>
+      <p class="text-site">Нажимая на кнопку «Отправить», Вы даёте согласие на обработку Ваших персональных данных в соответствии с <a class="site-link" href="#" title="">указанными условиями</a>.</p>
+      <input class="application-form__btn btn" type="submit" value="Отправить">
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="business">
+      <div class="business__list container">
+        <article class="business__item text-site">
+          <p>© <strong>2021. ООО «ТДИ»</strong><br> Официальный интернет-магазин<br> Россия, Рязань, ул. Заводская, д. 5.</p>
+          <a class="business__tel" href="tel:+78004501122">8 (800) 450-11-22</a>
+          <a href="#">Контактная информация</a>
+        </article>
+        <article class="business__item text-site">
+          <p class="business__title">Информация</p>
+          <ul class="business__info">
+            <li>
+              <a href="#" title="">О проекте</a>
+            </li>
+            <li>
+              <a href="#" title="">Производители</a>
+            </li>
+            <li>
+              <a href="#" title="">Оплата и доставка</a>
+            </li>
+            <li>
+              <a href="#" title="">Договор оферты</a>
+            </li>
+            <li>
+              <a href="#" title="">Обработка персональных данных</a>
+            </li>
+          </ul>
+        </article>
+        <article class="business__item text-site">
+          <p class="business__title">Каталог</p>
+          <ul class="business__info">
+            <li>
+              <a href="#" title="">Инновационные решения</a>
+            </li>
+            <li>
+              <a href="#" title="">Оборудование для телеком</a>
+            </li>
+            <li>
+              <a href="#" title="">Кабины ПВГ</a>
+            </li>
+            <li>
+              <a href="#" title="">Щиты электрические</a>
+            </li>
+            <li>
+              <a href="#" title="">Объекты инфраструктуры</a>
+            </li>
+            <li>
+              <a href="#" title="">Чистые помещения</a>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </div>
+    <p class="page-footer__right container text-site">В вашем бизнесе всё
+      <a class="site-link" href="#">работает само</a>
+    </p>
+  </footer>
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+  </script>
+</body>
+</html>
