@@ -24,7 +24,13 @@
         </div>
         <a class="navigation-out__tel" href="tel:+78004501122">8 (800) 450-11-22</a>
         <a class="navigation-out__call site-link" href="#call-form">Обратный звонок</a>
-        <ul class="navigation-out__main-nav main-nav menu-text">
+        <form class="main-nav__form form-search" action="" method="get">
+          <label class="visually-hidden" for="search-form-input">Поле поиска</label>
+          <input type="search" placeholder="Поиск по сайту" id="search-form-input" required>
+          <button type="submit" class="button search-button" arial-label="Найти"></button>
+        </form>
+      </div>
+        <ul class="navigation-out__main-nav main-nav menu-text container">
           <li>
             <a href="#">О проекте</a>
           </li>
@@ -38,7 +44,6 @@
             <a href="#">Контакты</a>
           </li>
         </ul>
-      </div>
     </div>
     <div class="page-header__nav-inner nav-inner">
       <nav class="nav-inner__wrap container">
@@ -52,26 +57,19 @@
           <li>
             <a href="wardrobes.html">Телекоммуникационное оборудование</a>
           </li>
-          <li class="site-list__more">
+          <li>
             <a href="#">Кабины ПВГ</a>
-            <ul class="site-list-inner">
-              <li>
-                <a href="#">Щиты электрические</a>
-              </li>
-              <li>
-                <a href="#">Объекты инфраструктуры</a>
-              </li>
-              <li>
-                <a href="#">«Чистые» помещения</a>
-              </li>
-            </ul>
+          </li>
+          <li>
+            <a href="#">Щиты электрические</a>
+          </li>
+          <li>
+            <a href="#">Объекты инфраструктуры</a>
+          </li>
+          <li>
+            <a href="#">«Чистые» помещения</a>
           </li>
         </ul>
-        <form class="main-nav__form form-search" action="" method="get">
-          <label class="visually-hidden" for="search-form-input">Поле поиска</label>
-          <input type="search" placeholder="Поиск по сайту" id="search-form-input" required>
-          <button type="submit" class="button search-button" arial-label="Найти"></button>
-        </form>
       </nav>
     </div>
   </header>
