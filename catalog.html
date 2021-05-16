@@ -7,6 +7,10 @@
   <meta name="keywords" content="">
   <meta name="description" content="">
   <title>TDI</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicon/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body class="page-body">
@@ -46,7 +50,7 @@
         </a>
         <ul class="nav-inner__list site-list menu-text">
           <li>
-            <a href="catalog.html">телекоммуникационное оборудование</a>
+            <a href="#">телекоммуникационное оборудование</a>
           </li>
           <li>
             <a href="#">умный город</a>
@@ -62,104 +66,79 @@
     </div>
   </header>
   <main class="page-main">
-    <div class="slider-main">
-      <h1 class="visually-hidden">Слайдер продукции предприятия</h1>
-
-<!-- Swiper -->
-    <div class="swiper-container">
-      <div class="slider-main__list swiper-wrapper">
-        <div class="slider-main__item slider-main__item--1 swiper-slide">
-          <a class="slider-main__link" href="#">
-            <div class="slider-main__desc container">
-              <h2 class="headline">электронное<br> оборудование</h2>
-              <p>для телекоммуникаций</p>
-            </div>
-          </a>
-        </div>
-        <div class="slider-main__item slider-main__item--2 swiper-slide">
-          <a class="slider-main__link" href="#">
-            <div class="slider-main__desc container">
-              <h2 class="headline">электронная<br> технология</h2>
-              <p>для телекоммуникаций</p>
-            </div>
-          </a>
-        </div>
-        <div class="slider-main__item slider-main__item--3 swiper-slide">
-          <a class="slider-main__link" href="#">
-            <div class="slider-main__desc container">
-              <h2 class="headline">электронные<br> инновации</h2>
-              <p>для телекоммуникаций</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="swiper-pagination"></div>
-      <div class="slider-main__toggle slider-main__toggle--prev swiper-button-next"></div>
-      <div class="slider-main__toggle slider-main__toggle--next swiper-button-prev"></div>
-    </div>
-    </div>
-    <section class="innovation container">
-      <h2 class="headline">инновации «под ключ»</h2>
-      <ul class="innovation__list">
-        <li>
-          <img src="img/shopping-pavilion-2.png" alt="торговый павильон">
-          <div class="innovation__desc">
-            <h3 class="headline">торговый павильон</h3>
-            <p class="text-site">точка розничной торговли в местах остановок общественного транспорта</p>
-          </div>
+    <div class="catalog container">
+      <ul class="crumbs">
+        <li class="crumb-item">
+          <a href="index.html">Главная</a> /
         </li>
-        <li class="innovation__item-current">
-          <img src="img/stop-2.png" alt="умная остановка">
-          <div class="innovation__desc">
-            <h3 class="headline">«умная» остановка</h3>
-            <p class="text-site">информационно-коммуникационная конструкция</p>
-            <a class="innovation__btn btn" href="#">оставить заявку</a>
-          </div>
+        <li class="crumb-item">
+          <a href="index.html">Каталог</a> /
         </li>
-        <li>
-          <img src="img/stella-2.png" alt="информационная стелла">
-          <div class="innovation__desc">
-            <h3 class="headline">информационная стелла</h3>
-            <p class="text-site">для воспроизведения видеоконтента и другой визуальной информации</p>
-          </div>
+        <li class="crumb-item">
+          Телекоммуникационное оборудование
         </li>
       </ul>
-    </section>
-    <section class="clean-rooms container">
-      <h2 class="headline">для «чистых» помещений</h2>
-      <div class="clean-rooms__slider">
-        <a>
-          <img src="img/slide_1.jpg" alt="мойка хирургическая">
-          <h4 class="headline">мойки хирургические</h4>
-          <p class="text-site">для сохранения высоких стандартов гигиены в операционных блоках</p>
-        </a>
-        <a>
-          <img src="img/slide_2.jpg" alt="двери">
-          <h4 class="headline">двери раздвижные</h4>
-          <p class="text-site">водонепроницаемые, недеформируемые и ударопрочные</p>
-        </a>
-        <a>
-          <img src="img/slide_3.jpg" alt="шлюзы">
-          <h4 class="headline">шлюзы передаточные</h4>
-          <p class="text-site">для перемещения материалов между помещениями разных классов чистоты</p>
-        </a>
-        <a>
-          <img src="img/slide_4.jpg" alt="стеновые конструкции">
-          <h4 class="headline">стеновые ограждающие конструкции</h4>
-          <p class="text-site">для операционных, дородовых, лабораторных, реанимацонных блоков</p>
-        </a>
-        <a>
-          <img src="img/slide_1.jpg" alt="мойка хирургическая">
-          <h4 class="headline">мойки хирургические</h4>
-          <p class="text-site">для сохранения высоких стандартов гигиены в операционных блоках</p>
-        </a>
-        <a>
-          <img src="img/slide_2.jpg" alt="двери">
-          <h4 class="headline">двери раздвижные</h4>
-          <p class="text-site">водонепроницаемые, недеформируемые и ударопрочные</p>
-        </a>
+      <ul class="catalog__menu catalog-nav">
+        <li>
+          <a href="#">структурированные кабельные системы</a>
+        </li>
+        <li class="catalog-nav__item-active">
+          <a href="#">шкафы климатические<br> по отраслям применения</a>
+        </li>
+        <li>
+          <a href="#">системы мониторинга и управления</a>
+        </li>
+        <li>
+          <a href="#">опс и системы автоматического газового пожаротушения</a>
+      </li>
+      </ul>
+      <div class="catalog__wrap">
+        <ul class="catalog-nav">
+          <li>
+            <a href="#" title="">для операторов связи</a>
+          </li>
+          <li>
+            <a>для нефтегазовой отрасли</a>
+          </li>
+          <li class="catalog-nav__item-active">
+            <a href="#" title="">для автодорожной инфраструктуры</a>
+          </li>
+          <li>
+            <a href="#" title="">для проектов «безопасный город»</a>
+          </li>
+          <li>
+            <a href="#" title="">для городского транспорта</a>
+          </li>
+        </ul>
+        <section class="catalog__content content-inner">
+          <h1>для автодорожной инфраструктуры</h1>
+          <p>Шкафы предназначены для размещения и функционирования в них оборудования сотовой связи, кроссового оборудования, систем электропитания, контроля и управления, другого вспомогательного оборудования. Шкафы устанавливаются вне помещений и гарантируют устойчивость к воздействию окружающей среды (атмосферным осадкам, пыли, перепадам температуры). Шкафы изготовлены в антивандальном взломостойком исполнении и исключают несанкционированный доступ к оборудованию.</p>
+          <ul class="content-inner__gallery catalog-gallery">
+            <li>
+              <a href="#" title="">
+                <img src="img/catalog-wardrobe-1.png" alt="торговый павильон">
+                <p class="headline">шкаф дорожный климатический 19" 24u</p>
+                <span class="catalog-gallery__btn btn">цена по запросу</span>
+              </a>
+            </li>
+            <li class="catalog-gallery__new">
+              <a href="#" title="">
+                <img src="img/catalog-wardrobe-2.png" alt="умная остановка">
+                <p class="headline">шкаф дорожный климатический 19" 39u</p>
+                <span class="catalog-gallery__btn btn">цена по запросу</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="">
+                <img src="img/catalog-wardrobe-3.png" alt="информационная стелла">
+                <p class="headline">шкаф дорожный климатический 19"<br> в комплекте с вру</p>
+                <span class="catalog-gallery__btn btn">цена по запросу</span>
+              </a>
+            </li>
+          </ul>
+        </section>
       </div>
-    </section>
+    </div>
     <section class="advantages">
       <div class="advantages__wrap container">
         <h2 class="headline">почему нам доверяют</h2>
@@ -266,9 +245,5 @@
     </p>
   </footer>
   <script src="js/script.js"></script>
-  <script src="js/script-slider.js"></script>
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>
