@@ -85,30 +85,40 @@
         <div class="goods__content product-info">
           <div class="product-info__slider slider-product">
             <div class="slider-product__thumbs swiper-container">
-              <ul>
-                <li class="slider-product__thumb">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide slider-product__thumb slider-product__thumb--active">
                   <figure>
                     <img src="img/slider-thumb-1.jpg">
                   </figure>
                 </li>
-                <li class="slider-product__thumb">
+                <li class="swiper-slide slider-product__thumb">
                   <figure>
                     <img src="img/slider-thumb-2.jpg">
                   </figure>
                 </li>
-                <li class="slider-product__thumb">
+                <li class="swiper-slide slider-product__thumb">
                   <figure>
-                    <img src="img/slider-thumb-1.jpg">
+                    <img src="img/slider-thumb-3.jpg">
                   </figure>
                 </li>
               </ul>
-              <a class="slider-product__toggle slider-product__toggle--prev" onclick="minusSlide()"></a>
-              <a class="slider-product__toggle slider-product__toggle--next" onclick="plusSlide()"></a>
+              <a class="slider-product__toggle slider-product__toggle--prev swiper-button-prev"></a>
+              <a class="slider-product__toggle slider-product__toggle--next swiper-button-next"></a>
             </div>
-            <div class="slider-product__big">
-              <img src="img/gallery-big-1.jpg">
+            <div class="swiper-container slider-big">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide slider-big__item">
+                  <img src="img/gallery-big-1.jpg">
+                </div>
+                <div class="swiper-slide slider-big__item">
+                  <img src="img/gallery-big-2.jpg">
+                </div>
+                <div class="swiper-slide slider-big__item">
+                  <img src="img/gallery-big-3.jpg">
+                </div>
+               </div>
             </div>
-          </div>
+            </div>
           <section class="product-info__desc">
             <h3 class="visually-hidden">Характеристика продукта</h3>
             <p>Конструкция мойки предусматривает защиту пользователя от брызг, а большой размер моечной ванны позволяет вымыть руки выше локтя, не испытывая каких-либо неудобств.
@@ -245,6 +255,8 @@
     <a class="site-link" href="#">работает само</a>
   </p>
 </footer>
+<script src="js/swiper.js"></script>
 <script src="js/script.js"></script>
+<script src="js/script-gallery.js"></script>
 </body>
 </html>
