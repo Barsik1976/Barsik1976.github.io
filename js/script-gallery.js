@@ -1,7 +1,7 @@
     var galleryThumbs = new Swiper('.slider-product__thumbs', {
         direction: "vertical",
         spaceBetween: 24,
-        slidesPerView: 2,
+        slidesPerView: auto,
         loop: true,
         freeMode: true,
     loopedSlides: 2, //looped slides should be the same
