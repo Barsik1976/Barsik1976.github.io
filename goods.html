@@ -118,27 +118,17 @@
               <a href="#">Получить презентацию</a>
             </div>
           </div>
-
-
           <section class="good-target__tab good-tabs">
             <h3 class="visually-hidden">Преимущества</h3>
-            <div class="good-tabs__wrap">
-              <ul class="good-tabs__list">
-                <li>
-                  <a href="#tab_01" class="good-tabs__link-active"><span>технические характеристики</span></a>
-                </li>
-                <li>
-                  <a href="#tab_02"><span>основные функции</span></a>
-                </li>
-                <li>
-                  <a href="#tab_03"><span>оборудование</span></a>
-                </li>
-                <li>
-                  <a href="#tab_04"><span>реализованные проекты</span></a>
-                </li>
-              </ul>
-              <div class="good-tabs__content">
-                <div class="good-tabs__block" id="tab_01">
+            <div class="tabs  good-tabs__wrap">
+              <div class="tabs__nav  good-tabs__list">
+                <a class="tabs__link tabs__link_active  good-tabs__link" href="#content-1">технические характеристики</a>
+                <a class="tabs__link  good-tabs__link" href="#content-2">основные функции</a>
+                <a class="tabs__link  good-tabs__link" href="#content-3">оборудование</a>
+                <a class="tabs__link  good-tabs__link" href="#content-4">реализованные проекты</a>
+              </div>
+              <div class="tabs__content  good-tabs__content">
+                <div  class="tabs__pane tabs__pane_show    good-tabs__block" id="content-1">
                   <ul>
                     <li>
                       <p>ширина</p>
@@ -174,14 +164,14 @@
                   </li>
                 </ul>
               </div>
-              <div class="good-tabs__block text-site" id="tab_02">
+              <div class="tabs__pane   good-tabs__block text-site" id="content-2">
                 Вторая вкладка. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim laudantium esse modi aut in recusandae explicabo, doloremque animi sapiente hic nobis ducimus minima distinctio deleniti tempora deserunt cumque amet consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim laudantium esse modi aut in recusandae explicabo, doloremque animi sapiente hic nobis ducimus minima distinctio deleniti tempora deserunt cumque amet consequatur.
               </div>
-              <div class="good-tabs__block text-site" id="tab_03">
-                Третья вкладка. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim laudantium esse modi aut in recusandae explicabo, doloremque animi sapiente hic nobis ducimus minima distinctio deleniti tempora deserunt cumque amet consequatur.
+              <div class="tabs__pane   good-tabs__block text-site" id="content-3">
+                Третья вкладка...
               </div>
-              <div class="good-tabs__block text-site" id="tab_04">
-                Третья вкладка. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim laudantium esse modi aut in recusandae explicabo, doloremque animi sapiente hic nobis ducimus minima distinctio deleniti tempora deserunt cumque amet consequatur.
+              <div class="tabs__pane   good-tabs__block text-site" id="content-4">
+                Четвертая вкладка. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim laudantium esse modi aut in recusandae explicabo, doloremque animi sapiente hic nobis ducimus minima distinctio deleniti tempora deserunt cumque amet consequatur.
               </div>
             </div>
           </div>
@@ -273,5 +263,6 @@
 </footer>
 <script src="js/script.js"></script>
 <script src="js/script-more.js"></script>
+<script src="js/script-tabs.js"></script>
 </body>
 </html>
